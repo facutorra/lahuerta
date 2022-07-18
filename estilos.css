@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: yellow;
+    align-items: center;
+    background-image: url(multimedia/fondos2.jpg);
+    height: 80px;
+    width: 100%;
+    color: green;
+    font-size: 25px;
+    padding: 15px;
+    }
+    .fondo{
+        background-image: url(multimedia/fondos2.jpg);
+        align-items: center;
+    }
+
+.marquee{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: greenyellow
+    ;
+}
+.logo span
+    {
+        border: 5px;
+        color: black;
+    }
+    
+.logo
+    {
+        float: left;color: white;
+        padding: 15px;
+        font-size: 20px;
+        ;
+    }
+
+    .barra{
+        float: right;
+    }
+    
+    .barra ul li{
+        list-style: none;
+    }
+    
+    .barra ul li{
+        display: inline-block;
+    }
+    
+    .barra ul li{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+    .main{
+        background-image: url(./multimedia/fondos1.jpg);
+        background-position: center;
+        background-size: cover;
+    height: 100vh;
+    width: 100%;
+    }
+    
+    .call{
+        color: white;
+        width: 50%;
+        float: right;
+        background-color: rgba(0, 0, 0, 0.459);
+        padding: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 25px;
+        margin-right: 25px;
+        border: 2px solid; color: yellow;
+    }
+    
+    .call h1{
+        color: green;
+        margin-bottom: 20px;
+    }
+    
+    .call p{
+        margin-bottom: 20px;
+    }
+    
+    .call a{
+        background-color: green;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .call a:hover{
+        background-color: black;
+    }
+    
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: yellow;
+        color: white;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 10px;
+        ;
+    }
+    section{
+        min-height: 700px;
+        width: 100%;
+        background-color: greenyellow;
+        display:  flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .item{
+        height: 120px;
+        width: 120px;
+        background-color: green;
+        border: 2px solid rgb(245, 243, 241);
+    }
+    
+    
+    footer{
+        background-color: yellow;
+        min-height: 50px;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    footer p{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+        color: white;
+        margin-bottom: 20px;
+    
+    }
+    footer i{
+        font-size: 40px;
+        color: grey;
+        letter-spacing: 20px;
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        background-color: greenyellow;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 40px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 50%;
+        box-shadow: 0 0 5px #fff;
+    }

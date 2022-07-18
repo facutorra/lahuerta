@@ -1,0 +1,116 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    background-color: springgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #333;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
+    padding: 10px;
+    
+}
+
+.recetas{
+    width: 100%;
+    min-height: 450px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    background-color: springgreen;
+    padding: 20px;
+    /*min-height: 100vh;*/
+}
+
+.item{
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: 2px 2px 5px #333;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+.item1{
+    background-image: url(img/arandanos.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(img/fondos2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-image: url(img/peras.webp);
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(img/membrillos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item5{
+    background-image: url(img/mandarina.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(img/frutilla.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background-image: url(img/cereza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item8{
+    background-image: url(img/fondos1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+footer i{
+    font-size: 40px;
+    letter-spacing: 20px;
+}
+
+footer a{
+    color: springgreen;
+}
+@media only screen and (min-width:1024px){
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr
+    }
+    .recetas h3{
+        font-size: 35px;
+    }
+}
