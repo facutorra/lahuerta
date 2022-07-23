@@ -1,0 +1,13 @@
+header{
+    background-color: yellow;
+}
+.logo{
+    background-color: yellowgreen;
+}
+main{
+    background-color: green
+}
+article{
+    background-color: greenyellow;
+    border: 2px solid black;
+}
