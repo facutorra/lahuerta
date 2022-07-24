@@ -29,10 +29,10 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" href="./productos.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+                        <a class="nav-link" href="./recetas.html">Recetas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -65,6 +65,74 @@
     <h1>
         Productos
     </h1>
+    <!-- activa modal -->
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Carrito de compras
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Carrito de compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 align-self-center">
+                                <img src="./img/manzana.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Manzana</h5>
+                                    <p class="card-text">Precio: $360</p>
+                                    <p class="card-text">Cantidad: 1
+
+                                        <button class="btn btn-primary"> <i
+                                                class="fa-solid fa-square-plus"></i></button>
+                                        <button class="btn btn-primary"> <i
+                                                class="fa-solid fa-square-minus"></i></button>
+
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4 align-self-center">
+                                <img src="./img/manzana.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Manzana</h5>
+                                    <p class="card-text">Precio: $360</p>
+                                    <p class="card-text">Cantidad: 1
+
+                                        <button class="btn btn-primary"> <i
+                                                class="fa-solid fa-square-plus"></i></button>
+                                        <button class="btn btn-primary"> <i
+                                                class="fa-solid fa-square-minus"></i></button>
+
+                                    </p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver atras</button>
+                    <button type="button" class="btn btn-primary">Finalizar compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <ul>
         <li>Frutas</li>
 
@@ -96,7 +164,7 @@
         </section>
 
         <li>Delicatessen</li>
-
+        
     </ul>
 
 
