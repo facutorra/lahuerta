@@ -1,20 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./multimedia/palta icono.png">
+    <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="estilos.css">
-    
+
     <title>lahuerta</title>
 </head>
+
 <body>
-    <header> 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-seedling"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">La Huerta
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/noticias.html">Noticias Frescas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Contactenos</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Via mail</a>
+                                <a class="dropdown-item" href="#">Llamada telefonica</a>
+                                <a class="dropdown-item" href="#">Dirijase a nuestra sucursal mas cercana</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Estamos a su Servicio</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- activa modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+
+                    <!--<form class="d-flex">
+                    </form>-->
+                </div>
+            </div>
+        </nav>
         <img src="./multimedia/La huerta - letras.png" alt="logo">
         <img src="./multimedia/fondos2.jpg" alt="fondo">
         <h1>La Huerta</h1>
+
         <nav>
             <ul type="circle">
                 <li>
@@ -33,15 +86,21 @@
         </nav>
     </header>
     <marquee behavior="altenate" direction="left">Frutas frescas siempre</marquee>
-     <section>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6uJl2kUKE5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6uJl2kUKE5o" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         <p>Los mejores tips de como mantener tus frutas y verduras frescas siempre</p> <br>
     </section>
 
     <section>
         <img src="./multimedia/lahuerta-frente.jpg" alt="Portada Verduras" height="500" width="600">
         <p>imagen lahuerta</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27146.67818860214!2d-60.54652875463343!3d-31.73406199292117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff0f53975a9ee31a!2sLa%20Huerta!5e0!3m2!1ses-419!2sar!4v1655406983858!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27146.67818860214!2d-60.54652875463343!3d-31.73406199292117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff0f53975a9ee31a!2sLa%20Huerta!5e0!3m2!1ses-419!2sar!4v1655406983858!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p>Aqui nuestra ubicacion</p>
         <img src="multimedia/verduras.jpg" alt="cazuela de verduras" height="350" width="350">
         <iframe src="" frameborder="0"></iframe>
@@ -53,47 +112,58 @@
         <audio src=""></audio>
     </section>
 
-<footer>
-<form action="" method="post" enctype="application/x-www-form-urlencoded">
-    <p>Ingrese sus datos</p>
-    <label for="nombre">Nombre y Apellido</label>
-    <input name="nombre" type="text"> <br>
-    <label for="celular">Celular</label>
-    <input name="celular" type="number"> <br>
-    <label for="email">Ingrese su correo</label>
-    <input name="email" type="mail">
-    <input type="button" value="Enviar">
-    <input type="submit" value="Enviar a Correo">
-    <input type="reset" value="Borrar">
-    
-</form>
-<nav><ul>
-    <li>Facebook</li>
-    <li>Intagram</li>
-    <li>Whatsapp</li>
-    </ul>
-</nav>
-<nav>
-    <ul>
-        <li><h3>Prensa</h3><a href="prensa"></a></li>
-        <li><h3>Portfolio</h3><a href="portfolio"></a></li>
-        <li><h3></h3><a href="contacto.html">Contactos</a></li>
-    </ul>
-    
-        
-        <p>Todos los derechos reservados por Copyrigth 2022</p>
+    <footer>
+        <form action="" method="post" enctype="application/x-www-form-urlencoded">
+            <p>Ingrese sus datos</p>
+            <label for="nombre">Nombre y Apellido</label>
+            <input name="nombre" type="text"> <br>
+            <label for="celular">Celular</label>
+            <input name="celular" type="number"> <br>
+            <label for="email">Ingrese su correo</label>
+            <input name="email" type="mail">
+            <input type="button" value="Enviar">
+            <input type="submit" value="Enviar a Correo">
+            <input type="reset" value="Borrar">
 
-        <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-</nav>
-    <a href="mailto:facutorra@gmail.com">facutorra@gmail.com</a>
-    
-    
-    
-</footer>
+        </form>
+        <nav>
+            <ul>
+                <li>Facebook</li>
+                <li>Intagram</li>
+                <li>Whatsapp</li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>
+                    <h3>Prensa</h3><a href="prensa"></a>
+                </li>
+                <li>
+                    <h3>Portfolio</h3><a href="portfolio"></a>
+                </li>
+                <li>
+                    <h3></h3><a href="contacto.html">Contactos</a>
+                </li>
+            </ul>
 
+
+            <p>Todos los derechos reservados por Copyrigth 2022</p>
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </nav>
+        <a href="mailto:facutorra@gmail.com">facutorra@gmail.com</a>
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

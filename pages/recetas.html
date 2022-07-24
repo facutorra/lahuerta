@@ -1,36 +1,93 @@
 <!DOCTYPE html>
 <lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="recetas.css">
-    <title>Recetas</title>
-</head>
-<body>
-    <h1>Recetas</h1>
-    <h2>galeria de imagenes</h2>
-    <section class="galeria">
-        <div class="item item1"></div>
-        <div class="item item2"></div>
-        <div class="item item3"></div>
-        <div class="item item4"></div>
-        <div class="item item5"></div>
-        <div class="item item6"></div>
-        <div class="item item7"></div>
-        <div class="item item8"></div>
-    </section>
 
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./multimedia/palta icono.png">
+        <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="recetas.css">
+        <title>Recetas</title>
+    </head>
 
-<footer>
-    <p>todos los derechos reservados por copyrigth</p>
-    <p>el sitio fue desarrollado por facu</p>
-    <div class="redes">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-    </div>
-    <a href="../index.html">Ir a Inicio</a>
-</footer>
-</html>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-seedling"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">La Huerta
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/noticias.html">Noticias Frescas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">Contactenos</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Via mail</a>
+                                <a class="dropdown-item" href="#">Llamada telefonica</a>
+                                <a class="dropdown-item" href="#">Dirijase a nuestra sucursal mas cercana</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Estamos a su Servicio</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- activa modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+
+                    <!--<form class="d-flex">
+                </form>-->
+                </div>
+            </div>
+        </nav>
+        <h1>Recetas</h1>
+        <h2>galeria de imagenes</h2>
+        <section class="galeria">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+            <div class="item item6"></div>
+            <div class="item item7"></div>
+            <div class="item item8"></div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    </body>
+
+    <footer>
+        <p>todos los derechos reservados por copyrigth</p>
+        <p>el sitio fue desarrollado por facu</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="../index.html">Ir a Inicio</a>
+    </footer>
+
+    </html>

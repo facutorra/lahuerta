@@ -5,7 +5,7 @@
 
 .html{
     scroll-behavior: smooth;
-}
+    }
 
 .header{
     background-color: yellow;
@@ -28,7 +28,7 @@
     font-size: large;
     color: greenyellow
     ;
-}
+    }
 .logo span
     {
         border: 5px;
