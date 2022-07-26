@@ -81,7 +81,7 @@ h2 {
 .header {
     background-color: rgb(2, 68, 2);
     align-items: center;
-    background-image: url(multimedia/fruit-salad.png);
+    background-image: url(multimedia/lahuerta-frente.jpg);
     height: 80px;
     width: 100%;
     color: green;
@@ -90,7 +90,7 @@ h2 {
 }
 
 .fondo {
-    background-image: url(multimedia/fruit-salad.png);
+    background-image: url(multimedia/lahuerta-frente.jpg);
     align-items: center;
 }
 
@@ -132,7 +132,7 @@ h2 {
 }
 
 .main {
-    background-image: url(./multimedia/fondos1.jpg);
+    background-image: url(./multimedia/lahuerta-frente.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
