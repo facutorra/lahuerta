@@ -84,27 +84,78 @@ h2{
     background-position: center;
 }
 
-footer{
-    background-color: #333;
+footer {
+    background-color: rgb(0, 104, 52);
     color: #fff;
     text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
     padding: 20px;
 }
 
-footer p{
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 10px;
-}
-
-footer i{
+.redes {
     font-size: 40px;
     letter-spacing: 20px;
+    transition: all 0.7s;
 }
 
-footer a{
+footer p::first-letter {
     color: springgreen;
+    font-size: 35px;
 }
+
+footer p::first-line {
+    color: greenyellow;
+}
+
+::selection {
+    background-color: springgreen;
+    color: yellow;
+}
+
+.redes i:hover {
+    color: springgreen;
+    cursor: pointer;
+    transform: translateY(-20px);
+    transition: all 0.7s;
+}
+
+  /* cambio scroll inicio */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #1c1c1c;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    background-color: #1b1b1b;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: rgb(10, 212, 67);
+}
+
+  /* cambio de scrollbar */
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+}
+
+  /*# sourceMappingURL=estilos.css.map */
 @media only screen and (min-width:1024px){
     .galeria{
         display: grid;
